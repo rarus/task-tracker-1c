@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27e8bb95-e471-43e5-8b90-919eeb5606a4">
+  <producedTypes>
+    <objectType typeId="e7caca9b-c21f-4251-8362-9b6fa2deba05" valueTypeId="cb5abc32-26d8-4a8d-bde9-4162ef3db29c"/>
+    <refType typeId="6f6ff8bb-3977-4266-b4f3-aadfa8ecbd56" valueTypeId="f81af89f-287d-4cfb-9db6-af8cc09c8092"/>
+    <selectionType typeId="352c45b2-ae27-412c-adc6-63f9c4187130" valueTypeId="44ed7645-806e-426d-9c44-3b74f9c33c73"/>
+    <listType typeId="b3392d9d-7479-4189-b07e-d63e1e8ec439" valueTypeId="e0c342fb-977b-4c25-bcce-f676615de687"/>
+    <managerType typeId="322f85f5-0342-4f78-90c8-d3547461b2fb" valueTypeId="22f9c35f-65b1-4e28-a6c8-ab3365f5bb22"/>
+  </producedTypes>
+  <name>тз_Релизы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Релизы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Релизы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6ae56dab-cdcf-45bc-a2a2-2e50e08e8d26">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b965e559-53fb-4b46-bdbb-8ffef0ec9d0d">
+    <name>ДатаВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

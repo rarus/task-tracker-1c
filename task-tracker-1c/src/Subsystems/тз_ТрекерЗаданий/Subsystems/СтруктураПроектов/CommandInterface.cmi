@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.тз_Проекты.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.тз_Этапы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.тз_Пользователи.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.тз_ПрофилиЗаданий.StandardCommand.OpenList</commands>
+      <commands>Catalog.тз_Проекты.StandardCommand.OpenList</commands>
+      <commands>Catalog.тз_Этапы.StandardCommand.OpenList</commands>
+      <commands>Catalog.тз_Пользователи.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.тз_Проекты</commands>
+      <commands>CommonCommand.тз_Этапы</commands>
+      <commands>CommonCommand.тз_Пользователи</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

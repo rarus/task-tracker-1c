@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e237ba3b-5db9-44e0-a98c-b1dde4f884f7">
+  <producedTypes>
+    <objectType typeId="6731c571-51e9-4fcd-aa8a-0f1a855419e3" valueTypeId="2b1f3a5a-342b-4967-9f0f-6a5b4a19a27a"/>
+    <refType typeId="c0b5d0bf-5095-4046-9fe4-8512f6092a51" valueTypeId="051dba13-4916-4d32-9e2a-100008565871"/>
+    <selectionType typeId="85b07767-51ad-4dd6-8f99-c8107bc46a27" valueTypeId="4536000c-307c-4f6b-9b2e-09e6dc0e66d7"/>
+    <listType typeId="f1dd32e3-3b74-4a0d-a942-4d0ef357b91b" valueTypeId="3e39c64d-35a7-414b-a5bc-ab6cb1da1720"/>
+    <managerType typeId="8f352808-0515-4b06-a985-4bf8c114d873" valueTypeId="472b8014-066e-4b89-81be-505c8035342f"/>
+  </producedTypes>
+  <name>тз_СостоянияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c59a7c52-0736-4146-98ed-9a295168a2ee">
+      <name>ВРаботе</name>
+      <description>В работе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="808b4132-8808-4351-82f6-d92411c7d1a0">
+      <name>Завершено</name>
+      <description>Завершено</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4a3b9487-9bb2-492a-ad21-92d598b18818">
+      <name>Новое</name>
+      <description>Новое</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тз_СостоянияЗаданий.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="48242753-de15-4f5b-af13-4a2fe85a1f54">
+    <name>СтатусВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус выполнения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.тз_СтатусыВыполнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b0a8c21-1f57-49ae-a314-80b1ad5aced3">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a43b05b8-6a2e-483f-9c8a-14ceaad5acb6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

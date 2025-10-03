@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3711f25-e73b-4486-b3be-791ed975d8f6">
+  <name>тз_ОбщегоНазначенияКлиентСерверТрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения клиент сервер трекер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

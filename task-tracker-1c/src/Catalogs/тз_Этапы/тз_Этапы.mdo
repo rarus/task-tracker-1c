@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be91003d-d05d-4cc2-8e29-e74f26dcfd14">
+  <producedTypes>
+    <objectType typeId="01bcc7f0-34d4-44d3-ac6a-5660aee6c061" valueTypeId="ed8e6eef-25d2-4266-a5da-ab8cd00c2923"/>
+    <refType typeId="d4a576a3-fd97-492a-9be5-e25d3356cb43" valueTypeId="8c6a7c50-5115-4d79-9105-2cb647425e39"/>
+    <selectionType typeId="a3f663c0-a021-4ae1-8363-12f5176d3aeb" valueTypeId="06aa7b2d-b416-4031-b7c3-a452d96f3acf"/>
+    <listType typeId="d5026488-fa53-45fe-a65e-d4cf670eadf5" valueTypeId="c789df61-edfc-4e4d-95f8-efbf5adcb346"/>
+    <managerType typeId="51b52698-a033-4b6d-ba68-13dfaa591c49" valueTypeId="e279532c-4ddb-4ff0-b897-ab647173ba5f"/>
+  </producedTypes>
+  <name>тз_Этапы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Этапы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.тз_Проекты</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

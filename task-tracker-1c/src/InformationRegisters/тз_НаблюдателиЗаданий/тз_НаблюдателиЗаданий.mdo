@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15f081cb-b5a7-416a-9e37-be7d7be9aa69">
+  <producedTypes>
+    <selectionType typeId="95626482-1892-4036-b300-d132d8f9744a" valueTypeId="dc4c8ff8-8e9e-4a73-8648-8cc94aaf368e"/>
+    <listType typeId="d55ce06b-1cee-47fa-b117-3346b987e8b1" valueTypeId="e1f388f6-912d-4c98-9c62-e645f9ca7f17"/>
+    <managerType typeId="85bc1b7f-3d23-41b4-892e-87a8c50d4e8f" valueTypeId="e9cac633-39b5-4f70-b0f9-3b34b750daba"/>
+    <recordSetType typeId="f25c25aa-c162-4c85-aa3f-28f26aed0c28" valueTypeId="4e22ea2a-7cad-4bed-9975-57ab5c5bd432"/>
+    <recordKeyType typeId="5015a77d-6d04-4c79-a8ec-d90c01df3dcc" valueTypeId="cb3eaf4f-94c7-455a-8f33-b52711abc9d8"/>
+    <recordType typeId="98d8110e-64d4-498c-a378-60fb60350ed6" valueTypeId="c0320516-4c94-4335-a785-1fb2572b9065"/>
+    <recordManagerType typeId="5fbefde6-320a-44d7-ad64-99735a7577a7" valueTypeId="f4b5874f-a6c8-4b8b-9860-e8ea5c827a71"/>
+  </producedTypes>
+  <name>тз_НаблюдателиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наблюдатели заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c1346ac1-804f-4b73-8133-ebcd90dd6f79">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

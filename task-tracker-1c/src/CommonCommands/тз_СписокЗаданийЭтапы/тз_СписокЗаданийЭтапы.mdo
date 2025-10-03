@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5455cf54-6bd7-4e14-856c-8b64d4d65fce">
+  <name>тз_СписокЗаданийЭтапы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трекер заданий</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DefinedType.тз_Этапы</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

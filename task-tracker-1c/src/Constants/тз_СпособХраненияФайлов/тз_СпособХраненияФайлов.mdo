@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19e385c4-f83c-4599-9439-8a561e95c3f2">
+  <producedTypes>
+    <managerType typeId="a34ebadc-ef5f-486c-b027-d796da6fc8b4" valueTypeId="c29c235d-addf-4d80-917c-d8bde527a0c7"/>
+    <valueManagerType typeId="5c99aaf8-8d4a-4ac6-9f80-2ecdb4098e58" valueTypeId="896d1e27-53ec-4300-b691-eab09dd10904"/>
+    <valueKeyType typeId="fbc2ba6b-c877-4d01-82c1-06110989bb0e" valueTypeId="224f3a80-66d5-4837-99e2-ba12608199a9"/>
+  </producedTypes>
+  <name>тз_СпособХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бт способ хранения файлов</value>
+  </synonym>
+  <synonym>
+    <key></key>
+    <value>Бт способ хранения файлов</value>
+  </synonym>
+  <comment>Способы хранения: &quot;ВИнформационнойБазе&quot;, &quot;ВТомахНаДиске&quot;, &quot;ВИнформационнойБазеИТомахНаДиске&quot;</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

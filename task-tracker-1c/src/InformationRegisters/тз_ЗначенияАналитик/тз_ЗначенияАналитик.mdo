@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b18fa652-5d1a-4e32-bffe-79f9b55c63a8">
+  <producedTypes>
+    <selectionType typeId="70ac77d9-8966-48a3-9659-682238146c84" valueTypeId="52a28ed4-ce0b-4251-9ca1-9e79fb4ccb3b"/>
+    <listType typeId="1230872e-062f-41de-b5b6-a8fa35d6ab69" valueTypeId="6a2fb7a1-2a00-4098-8ab5-6b4cf78bd875"/>
+    <managerType typeId="e1005bb0-dbba-42db-98cf-088aad7cd9e4" valueTypeId="fae1fc9b-bbc4-485d-8508-903d8432a2ed"/>
+    <recordSetType typeId="19132cbb-66df-4304-b2ef-38c6fc3a3679" valueTypeId="400a77db-4823-4d9b-81a1-1d896b83cb6d"/>
+    <recordKeyType typeId="fa7720e4-913c-44a5-a8f3-2b582924175b" valueTypeId="d81be578-1c83-4532-9587-b0737ccc16e3"/>
+    <recordType typeId="4154caf3-b0b2-405d-97e6-8a4906cd6257" valueTypeId="58934684-b7df-49b2-93e6-e1e436fde192"/>
+    <recordManagerType typeId="ea43a54d-cc5a-4db8-87f1-57c33aee399d" valueTypeId="d365f310-77d8-4bd5-b88c-11dafda70c1e"/>
+  </producedTypes>
+  <name>тз_ЗначенияАналитик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения аналитик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="31fa8f95-0d8c-404f-93fd-3fad59d5b55f">
+    <name>Значение</name>
+    <type>
+      <types>Characteristic.тз_ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e600ab86-dadb-45c6-bd99-7d8dd62133ed">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.тз_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3cdbe795-695b-4588-9ecf-0ab1da1759e9">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.тз_Задание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eec9174b-1a1e-473b-965d-40e77f5d173e">
+    <name>Аналитика</name>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.тз_ВидыАналитик</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

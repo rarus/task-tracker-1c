@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f67e4916-3aa3-4b53-95a9-667314cd513a">
+  <name>тз_ПодсистемаБагТрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема баг трекер</value>
+  </synonym>
+</mdclass:CommonPicture>

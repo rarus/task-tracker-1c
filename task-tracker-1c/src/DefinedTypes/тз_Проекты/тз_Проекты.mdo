@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1608f5f-78b4-47e1-ad7d-ba1df947518b">
+  <producedTypes>
+    <containerType typeId="9fea4b20-3ebb-4d2d-a9f7-8320a54e4ca5" valueTypeId="b6e1ee13-484e-46e7-9e2c-c041bcb93975"/>
+  </producedTypes>
+  <name>тз_Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.тз_Проекты</types>
+  </type>
+</mdclass:DefinedType>

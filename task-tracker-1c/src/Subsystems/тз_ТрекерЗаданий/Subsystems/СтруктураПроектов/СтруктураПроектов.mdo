@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f838585-0280-44af-8f71-5404fb99d994">
+  <name>СтруктураПроектов</name>
+  <synonym>
+    <key></key>
+    <value>Структура проектов</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Структура проектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.тз_Пользователи</content>
+  <content>Catalog.тз_ПрофилиЗаданий</content>
+  <content>Catalog.тз_Этапы</content>
+  <content>Catalog.тз_Проекты</content>
+  <content>CommonCommand.тз_Пользователи</content>
+  <content>CommonCommand.тз_Проекты</content>
+  <content>CommonCommand.тз_Этапы</content>
+  <parentSubsystem>Subsystem.тз_ТрекерЗаданий</parentSubsystem>
+</mdclass:Subsystem>

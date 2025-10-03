@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc522ab-bbbe-47c5-ba8e-268af50a8849">
+  <producedTypes>
+    <refType typeId="3b0c59ee-9f2f-4067-9729-e0f881b8bce0" valueTypeId="be6f5eb3-66b5-495d-ab42-7cad401c1c86"/>
+    <listType typeId="a0d64a8f-1de9-4cb7-a365-f031cac5bf6f" valueTypeId="1eedc247-8e91-4d5a-89fb-91eaf36109e3"/>
+    <managerType typeId="e6eca734-82e7-46c3-932e-01fbd9aed847" valueTypeId="5b603783-4cb4-40d0-9506-93ea62a6b16a"/>
+  </producedTypes>
+  <name>тз_СтатусыИзвлеченияТекстаФайлов</name>
+  <synonym>
+    <key></key>
+    <value>Бт статусы извлечения текста файлов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e33adff7-1865-4885-80b7-f25c30d7e11a">
+    <name>НеИзвлечен</name>
+    <synonym>
+      <key></key>
+      <value>Не извлечен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce969fd3-68a0-4590-a197-45a77b1103d2">
+    <name>Извлечен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извлечен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cde6dbd4-1c05-4cdf-9edf-d9611d96c9dc">
+    <name>ИзвлечьНеУдалось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извлечь не удалось</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29db0fa8-bce6-4062-a42b-8ed56506e84f">
+  <producedTypes>
+    <objectType typeId="c32606f1-507a-4d79-a839-d7dadf8c5d25" valueTypeId="b04b5892-a538-4c8f-9ad0-17289e8e6d3a"/>
+    <refType typeId="7e06bb50-3520-40de-8cd1-2f103cbf6b92" valueTypeId="e92876e5-3f4c-4c11-bf38-d39045582a0f"/>
+    <selectionType typeId="b5d13192-d7de-4cc7-856e-5617849d1275" valueTypeId="e220dfe2-c8c9-4742-9ce6-7ed5a93450cf"/>
+    <listType typeId="c1d4f393-2ea3-48cb-b66b-87a6bbd9a466" valueTypeId="d0e06784-7461-42dc-8604-6c4401f8cc8d"/>
+    <managerType typeId="1f8218de-df7c-45f3-82b8-b476d77ca899" valueTypeId="ded35945-b4de-436a-aab8-e85b10e3b7dc"/>
+  </producedTypes>
+  <name>тз_Спринты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спринты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Спринты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тз_Спринты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

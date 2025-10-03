@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c56a07c-9cc3-43f6-a4a5-0fd7e2b70f3b">
+  <name>тз_ОткрытьНастройкиТрекера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки трекера</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

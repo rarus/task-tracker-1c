@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43743dcd-2c52-4c77-a1d1-3b0ffa2f04f7">
+  <producedTypes>
+    <managerType typeId="5ba87f08-cad6-4f3b-9e3d-63db645199f7" valueTypeId="ab90624a-8435-4204-a5f5-ae21568751a4"/>
+    <valueManagerType typeId="6471084f-b4bf-4f21-9ca7-54e1a3b233b1" valueTypeId="f18633e3-2175-46d8-b647-7097b2c9d740"/>
+    <valueKeyType typeId="f765a058-ca17-4401-9c1c-e56ec2843ee5" valueTypeId="eab6647a-21b6-4be8-b1b7-1b5c42a4a440"/>
+  </producedTypes>
+  <name>тз_РеквизитЭтапаДляСвязиСПроектом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бт реквизит этапа для связи с проектом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
