@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<setup:Workspace xmlns:setup="http://www.eclipse.org/oomph/setup/1.0" xmlns:xmi="http://www.omg.org/XMI" name="workspace" xmi:version="2.0">
-    <stream href="index:/org.eclipse.setup#//@projectCatalogs[name='com.e1c.g5.dt.cloud.projects']/@projects[name='7f5f86e2-6077-4a4e-9582-aed75e5d9cba']/@streams[name='master']"/>
-</setup:Workspace>
