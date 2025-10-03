@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2f508fc-e606-4e73-989f-60b766a25751">
+  <producedTypes>
+    <selectionType typeId="d1cb1918-285b-4ec7-8013-fac7dfe1f7a5" valueTypeId="50898c01-001e-419e-8b1d-4c4dc1312b4a"/>
+    <listType typeId="a0cf9031-d75a-431d-bac8-3fb7b7511840" valueTypeId="4828b025-f56b-45b3-aa6e-257feaa82ce5"/>
+    <managerType typeId="46ec70bb-cde0-4502-a3f5-66ace1570d65" valueTypeId="faf3a3f5-9888-4845-9f8b-053c57959553"/>
+    <recordSetType typeId="495a0366-66ac-4e1c-8d7b-7a6b3bd14ea9" valueTypeId="df061806-9ce6-4cc9-9a9c-15d06f825e2c"/>
+    <recordKeyType typeId="d34d9842-b43f-426d-b61f-0eddcd78fb7c" valueTypeId="f40dc376-4147-4d8e-bc09-cc8b960f8054"/>
+    <recordType typeId="aeff5bba-9902-42de-80ad-b523102336b3" valueTypeId="5a7a275b-12ff-4637-9e23-44adbbb35540"/>
+    <recordManagerType typeId="f0608144-0aae-468f-a47d-32ea789f0337" valueTypeId="9faa3869-0dc1-4565-bcd5-92f911826d44"/>
+  </producedTypes>
+  <name>тз_ТегиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="60601135-62dc-44d2-bc7f-29f2e9ad9eee">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

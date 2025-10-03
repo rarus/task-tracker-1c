@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ddc9f3c-c17a-43d3-bf1d-8972f592b7ce">
+  <producedTypes>
+    <selectionType typeId="e9f0ff59-1225-4897-8dfc-16557fe36e9f" valueTypeId="357be71f-513e-487f-8c92-12bad6a4c406"/>
+    <listType typeId="8739e3e7-b789-4ff5-994a-f63f9ebcd5d5" valueTypeId="f1574d2f-c3ae-4dd6-8179-ca6c57731cb2"/>
+    <managerType typeId="d849f190-b050-4719-8c85-6eb31e544633" valueTypeId="7203cac0-be56-4c93-bc21-e0cc8ac328c7"/>
+    <recordSetType typeId="c6320d3e-9f89-47eb-82de-b280517deeb2" valueTypeId="991d2338-51a3-4b1c-8fc2-f443541a88d3"/>
+    <recordKeyType typeId="9d012729-f029-4d0b-b3b2-46babc113cfa" valueTypeId="3c42288c-1234-4920-87cd-603526868bec"/>
+    <recordType typeId="5fe7501c-b52d-4d6f-9dc6-70b516ce5aca" valueTypeId="47f33bf7-95d0-42b0-aa0e-706bb9d95ced"/>
+    <recordManagerType typeId="f5ed92b4-bb26-471c-981a-48dfc912e8ce" valueTypeId="6b765f62-c3cb-4a60-bdad-626a51257a78"/>
+  </producedTypes>
+  <name>тз_СвязиМеждуЗаданиями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи между заданиями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="566edb46-f4d5-4023-8256-fbd6dc145d32">
+    <name>Текущее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

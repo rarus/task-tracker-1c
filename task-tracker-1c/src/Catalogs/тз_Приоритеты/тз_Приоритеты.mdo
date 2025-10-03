@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5480a22-af28-47f9-9adb-4f1d8c064fe8">
+  <producedTypes>
+    <objectType typeId="025f1255-db81-41b1-8c8c-a2fa28374edb" valueTypeId="b4f986aa-ab6e-4353-b6c3-56e9254bafdf"/>
+    <refType typeId="f06e4fec-9ca1-4dce-9f59-c6e5ce4f4308" valueTypeId="ec90bd3a-855c-4039-8383-3d30c72477e2"/>
+    <selectionType typeId="aff9132f-a5f6-4a88-be4c-596836498cc8" valueTypeId="0da59b52-7947-4adb-9e0f-699998fa970f"/>
+    <listType typeId="1a0f6756-e48b-454c-b4f2-72215f3343d3" valueTypeId="1f2ace91-400c-4069-b602-44fcd13e851c"/>
+    <managerType typeId="9f628fc8-9aee-4819-9920-5ac64216986d" valueTypeId="0604ff48-e703-47c2-a812-fd391d0d3e7d"/>
+  </producedTypes>
+  <name>тз_Приоритеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Приоритеты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="34b00aed-89aa-4217-ad14-9394aabdb1b0">
+      <name>Высокий</name>
+      <description>Высокий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="fb455384-2e69-45e8-b8ab-e7fa497d584a">
+      <name>Низкий</name>
+      <description>Низкий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="17f0cf8e-e278-4350-945f-4f5ebc4a9e94">
+      <name>Средний</name>
+      <description>Средний</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

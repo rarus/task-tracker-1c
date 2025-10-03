@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="000cab08-c3b5-41ab-b1c5-4d93e5f9591e">
+  <producedTypes>
+    <objectType typeId="276fe14b-6130-427f-99c9-741e1e9fc02e" valueTypeId="274c9b0a-e349-48fc-822a-f06c6fcc49de"/>
+    <refType typeId="c1137410-9e92-410a-bfc2-683d3fe4ef24" valueTypeId="2b078e38-03fb-4563-8ad8-f22ccfc8059e"/>
+    <selectionType typeId="ac95cc9c-a2b7-419b-8906-2673ccda23a9" valueTypeId="d9da31de-542a-4666-83a1-84b149f7b7fc"/>
+    <listType typeId="20827368-a183-44ff-a80d-be5e41788879" valueTypeId="d0425ff1-045d-4b84-9090-96b1008f8cbf"/>
+    <managerType typeId="b9f5fba3-9655-4064-a121-acc8ba5cb9b6" valueTypeId="0700cbb4-c7ff-47dd-9d9d-d11a0f19d740"/>
+  </producedTypes>
+  <name>тз_Теги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Теги.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b1f9d851-3897-49c2-b339-4bc1a8210975">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.тз_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9245b820-d681-49c7-bf0a-510f1d4a73b3">
+  <producedTypes>
+    <containerType typeId="42a34d9e-af7f-4d8a-8d2a-a0fecc52cc7e" valueTypeId="87cfc052-2f8a-498a-907e-af490c280068"/>
+  </producedTypes>
+  <name>тз_Этапы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.тз_Этапы</types>
+  </type>
+</mdclass:DefinedType>

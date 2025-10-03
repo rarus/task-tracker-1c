@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d894280f-9408-452f-a3c9-770586d285eb">
+  <producedTypes>
+    <managerType typeId="4a2d5f7b-6e38-4a87-9b1f-d8f33c9008cf" valueTypeId="b5146d6d-e656-4e66-9959-2ec728e23452"/>
+    <valueManagerType typeId="b0ca5327-7086-4e5a-8735-04df422afea0" valueTypeId="e2d25f6b-3bf3-411f-8337-b70579947c3d"/>
+    <valueKeyType typeId="25abacb3-b890-4bd7-af44-d01e0446e265" valueTypeId="e99bb3b4-f174-4fed-bed2-ebce0e64ca1f"/>
+  </producedTypes>
+  <name>тз_ПараметрыХраненияФайловВИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры хранения файлов в ИБ</value>
+  </synonym>
+  <synonym>
+    <key></key>
+    <value>Бт параметры хранения файлов ВИБ</value>
+  </synonym>
+  <comment>Параметры: &quot;РасширенияФайлов&quot;, &quot;МаксимальныйРазмер&quot;</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1110f79-290e-49f3-8af7-43be83c809c9">
+  <name>тз_ОбщегоНазначенияТрекер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения трекер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

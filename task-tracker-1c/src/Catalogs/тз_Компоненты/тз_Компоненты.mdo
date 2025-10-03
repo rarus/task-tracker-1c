@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43359e47-53e5-443f-87f3-45cef6bf7e55">
+  <producedTypes>
+    <objectType typeId="2d6ebe4f-4c29-4f73-a171-279b386751ed" valueTypeId="b4ec0409-0899-458d-906e-acec05721c5b"/>
+    <refType typeId="af261050-bab1-40e3-9cf8-8d065dc327ee" valueTypeId="e55096ff-81be-4c83-8adf-e4a080907fca"/>
+    <selectionType typeId="a638a105-defc-4a8b-8549-7983cf0e756e" valueTypeId="ebb63cc7-2a14-4358-bba6-62d3fffab270"/>
+    <listType typeId="6ff20893-9fdf-46a3-8bac-93e6b581ce4e" valueTypeId="b046df50-af48-4f89-aef1-d9faace795ec"/>
+    <managerType typeId="1a5c3d2e-63b7-4eaf-9d25-1de7297a78a6" valueTypeId="9adac9c2-93bf-4c9b-bf6b-586a23239289"/>
+  </producedTypes>
+  <name>тз_Компоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компоненты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Компоненты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тз_Компоненты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

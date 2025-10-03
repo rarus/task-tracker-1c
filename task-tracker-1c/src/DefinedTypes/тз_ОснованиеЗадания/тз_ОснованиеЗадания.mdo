@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8de9fc3-f9ca-49e3-8c67-4da752e1635f">
+  <producedTypes>
+    <containerType typeId="4e2aa89f-cc2e-4d95-9b8e-96449de3039b" valueTypeId="d51f6d0a-b268-409c-aeee-12e5fab714dd"/>
+  </producedTypes>
+  <name>тз_ОснованиеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание задания</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.тз_Задание</types>
+  </type>
+</mdclass:DefinedType>

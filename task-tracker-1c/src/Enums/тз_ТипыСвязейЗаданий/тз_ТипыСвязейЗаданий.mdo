@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56a131c0-800b-4177-a00c-75778b79a228">
+  <producedTypes>
+    <refType typeId="17ba2d8f-4c65-46dc-a9fe-06a12b9a35e5" valueTypeId="7c59dcc2-04ee-4190-954a-b661585f40f7"/>
+    <listType typeId="ed8830b2-7782-4f24-ada1-d9124a964d7c" valueTypeId="ee2a14d9-e37e-4b94-86cd-f532c2c09775"/>
+    <managerType typeId="2b56658c-30a9-485d-955b-257c4300ad5e" valueTypeId="773d0333-7195-417f-955b-63a49989a31f"/>
+  </producedTypes>
+  <name>тз_ТипыСвязейЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы связей заданий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66725a1e-a64f-478e-b136-9e5a1385b5ba">
+    <name>Связана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c450005-2b3a-416b-a3a5-8d61410bdd46">
+    <name>ОбязательнаДля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательна для</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5a4bf5f-5dc8-4222-8e78-6cbc69391d97">
+    <name>ЗависитОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависит от</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56d30206-e970-45f6-858f-0b21228d4a08">
+    <name>Дублирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дублирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3896a511-fd68-4e0d-bac2-de93781d39dd">
+    <name>Дублирует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дублирует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bc82686-f78a-4f17-b2cd-2ca839ee8c4b">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96058c09-58a9-4662-99c4-815b2e1a8e06">
+    <name>Подзадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подзадача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

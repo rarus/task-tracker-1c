@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f5f6fa;
+			font-family: Arial, sans-serif;
+			margin: 5px;
+		}
+		body::-webkit-scrollbar {
+			width: 5px;
+		}
+		body::-webkit-scrollbar-track {
+			background: white;
+			border-radius: 15px;
+		}
+		body::-webkit-scrollbar-thumb {
+			background-color: #72afff;
+			border-radius: 15px;
+			border: 3px solid #72afff
+		}
+		p{
+			line-height:1.15;
+			margin:0;
+			white-space:pre-wrap;
+		}
+		h1 {
+			font-weight: bold;
+			font-size: 35px;
+			margin-bottom: 20px;
+		}
+		.info-container {
+			background: white;
+			border-radius: 12px;
+			padding: 20px;
+			margin: 5px 1%;
+			max-width: 95%;
+		}
+		.info-title {
+			color: #093;
+			font-size: 1.6em;
+			font-weight: 600;
+		}
+		.info-content {
+			color: #333;
+			padding-top: 10px;
+			background-color: white;
+			border-radius: 8px;
+			word-wrap: break-word;
+		}
+		.task-text {
+			font-size: 18px;
+			margin-bottom: 20px;
+			border-bottom: 2px solid #ddd;
+			padding-bottom: 20px;
+		}
+		.date-separator {
+			display: flex;
+			align-items: center;
+			margin: 15px 0;
+			color: #d4e3f0;
+		}
+		.date-separator::before,
+		.date-separator::after {
+			content: '';
+			flex: 1;
+			height: 2px;
+			background: #d4e3f0;
+			margin: 0 15px;
+			
+		}
+		.date-text {
+			color: #0066b1;
+			white-space: nowrap;
+			border-radius: 15px;
+			font-weight: bold;
+		}
+		.comments {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+		}
+		.comment-container {
+			border-radius: 15px 15px 2px 15px;
+			max-width: 95%;
+			margin: 10px 1%;
+		}
+		.comment-container.my-comment {
+			align-self: flex-end;
+		}
+		.comment-container.other-comment {
+			align-self: flex-start;
+		}
+		.comment-header {
+			color: #333;
+			font-size: 90%;
+			margin-bottom: 8px;
+			padding-bottom: 5px;
+			text-align: left;
+			padding-right: 10px;
+			}
+		.comment-container.my-comment .comment-header {
+		}
+		.comment-container.other-comment .comment-header {
+		}
+		date-comment {
+			color: gray;
+			}
+		.comment {
+			padding: 15px;
+			position: relative;
+			max-width: 100%;
+			word-wrap: break-word;
+		}
+		.comment-container.my-comment .comment {
+			background-color: #c8e8ff;
+			border-radius: 15px 15px 2px 15px;
+			padding-top: 10px;
+		}
+		.comment-container.other-comment .comment {
+			background-color: #ffffff;
+			border-radius: 15px 15px 15px 2px;
+			padding-top: 10px;
+			
+		}
+		.comment-image {
+			max-width: 100%;
+			height: auto;
+			object-fit: contain;
+		}
+		.comment.with-image {
+			padding: 10px;
+			min-width: 240px;
+		}
+		.comment-text {
+			margin-bottom: 8px;
+			word-wrap: break-word;
+		}
+		img {
+			display: inline;
+			object-fit: contain;
+			max-width: 95%;
+			max-height: 90vh;
+			width: auto;
+			height: auto;
+			box-shadow: 1px 1px 1px 1px gray;
+		}
+		a.Image {
+			text-decoration: none
+		}
+		a.FileID{
+			cursor: pointer;
+			color: #09994b;
+			text-decoration: none;
+			margin-top: 10px;
+		}
+		a.FileID::before{
+			content: "";
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin-right: 5px;
+			margin-bottom: 2px;
+			background: url(data:image/png;base64,[Base64КартинкиЗагрузки]) no-repeat 0 0;
+			background-size: 100%;
+		}
+		.comment-container.my-comment a.FileID{
+		
+		}
+		.comment-container.other-comment a.FileID{
+			
+		}
+		.comment-container.service-comment {
+			max-width: 95%;
+			margin: 10px 1%;
+			word-wrap: break-word;
+		}
+		.comment-container.service-comment.other-service {
+			align-self: flex-start;
+		}
+		.comment-container.service-comment.my-service {
+			align-self: flex-end;
+			text-align: right;
+		}
+		.service-header-text {
+			padding: 8px 5px;
+			position: relative;
+			display: inline-block;
+			color: #666;
+			border-radius: 15px;
+			transition: background-color 0.2s;
+		}
+		.service-comment.my-service .service-header {
+			border-radius: 15px 15px 2px 15px;
+		}
+		.service-comment.other-service .service-header {
+			border-radius: 15px 15px 15px 2px;
+		}
+		.service-header {
+			cursor: pointer;
+			padding: 8px 5px;
+			position: relative;
+			display: inline-block;
+			color: #666;
+			border-radius: 15px;
+			transition: background-color 0.2s;
+		}
+		.comment-container.service-comment.my-service .service-header{
+			text-align: right;
+			align-self: flex-end;
+			
+		}
+		.comment-container.service-comment.other-service .service-header{
+			text-align: left;
+		}
+		.service-header:hover {
+			background-color: #E2E2E2;
+		}
+		.toggle-arrow {
+			margin-left: 8px;
+			font-size: 12px;
+			transition: transform 0.2s;
+			display: inline-block;
+		}
+		.service-content {
+			display: none;
+			background-color: white;
+			padding: 15px;
+			border-radius: 10px;
+			margin-top: 10px;
+			text-align: left;
+			white-space: normal;
+			margin: 5px 0;
+		}
+		.service-comment.my-service .service-content {
+			background-color: #c8e8ff;
+			border-radius: 15px 2px 15px 15px;
+		}
+		.service-comment.other-service .service-content {
+			border-radius: 2px 15px 15px 15px;
+		}
+		.service-comment.expanded .toggle-arrow {
+			transform: rotate(180deg);
+		}
+		.service-comment.expanded .service-content {
+			display: block;
+			animation: fadeIn 0.3s;
+		}
+		@keyframes fadeIn {
+			from { opacity: 0; transform: translateY(-10px); }
+			to { opacity: 1; transform: translateY(0); }
+		}
+	</style>
+	<title>JS Test</title>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			document.querySelectorAll('.service-header').forEach(header => {
+				header.addEventListener('click', function() {
+					const commentContainer = this.closest('.service-comment');
+					const content = commentContainer.querySelector('.service-content');
+					commentContainer.classList.toggle('expanded');
+					content.style.display = content.style.display === 'block' ? 'none' : 'block';
+				});
+			});
+		});
+		window.onload=function(){
+			window.scrollTo(0,document.body.scrollHeight);
+		}
+		
+		function move_to_start(){
+			window.scrollTo(0,0);
+		}
+		function move_to_end(){
+			window.scrollTo(0,document.body.scrollHeight);
+		}
+	</script>
+</head>
+<body>
+	[СодержаниеЗадания]
+	<div class="comments">
+	<!--ВводКомментария-->
+	</div>
+</body>
+</html>

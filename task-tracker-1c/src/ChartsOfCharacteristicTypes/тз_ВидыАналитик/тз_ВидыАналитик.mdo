@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60bb7735-8b6a-44f3-9692-23e105d1a33e">
+  <producedTypes>
+    <objectType typeId="85b26d0b-aace-4b1f-b369-000ddc534c92" valueTypeId="78430b85-50f0-4492-bf26-7185aad5bdb2"/>
+    <refType typeId="49013a41-e253-4142-a6d0-b4fdd8fcbcc2" valueTypeId="0647e538-7710-44ae-852d-1833065ebacd"/>
+    <selectionType typeId="a4b0464a-36fc-4c97-b118-4b9b953c9ad6" valueTypeId="02f913cd-1434-4bb4-9b65-269c42bb2fcc"/>
+    <listType typeId="aa43f4b6-7b95-4687-8913-e427d13f7f02" valueTypeId="db31bcbe-5d6d-4b6d-9651-b23572fd7e3a"/>
+    <managerType typeId="8be6a4c5-abb7-4317-bc77-bfb6c6a6ce32" valueTypeId="9964f079-8810-47ed-b2d2-25c98bb3d862"/>
+    <containerType typeId="25884cd1-c34f-4595-b3a1-22282044434a" valueTypeId="48ffd62c-4315-41c2-b400-02c124c42904"/>
+  </producedTypes>
+  <name>тз_ВидыАналитик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аналитик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.тз_ЗначенияСвойствОбъектов</characteristicExtValues>
+  <type>
+    <types>CatalogRef.тз_Пользователи</types>
+    <types>EnumRef.тз_СтатусыВыполнения</types>
+    <types>CatalogRef.тз_Комментарии</types>
+    <types>Boolean</types>
+    <types>CatalogRef.тз_ЗначенияСвойствОбъектов</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>DocumentRef.тз_Задание</types>
+    <types>CatalogRef.тз_СостоянияЗаданий</types>
+    <types>CatalogRef.тз_ВидыЗаданий</types>
+    <types>CatalogRef.тз_Проекты</types>
+    <types>CatalogRef.тз_Этапы</types>
+    <types>CatalogRef.тз_Приоритеты</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f606154f-9202-40c7-b294-81c30153c246">
+      <name>ВидЗадания</name>
+      <description>Вид задания</description>
+      <type>
+        <types>CatalogRef.тз_ВидыЗаданий</types>
+      </type>
+    </items>
+    <items id="407f1255-f4ef-42c2-9bb7-6ab86aa5ac3a">
+      <name>Исполнитель</name>
+      <description>Исполнитель</description>
+      <type>
+        <types>CatalogRef.тз_Пользователи</types>
+      </type>
+    </items>
+    <items id="c005ab65-aadf-4186-9c7f-98593f507466">
+      <name>Комментарий</name>
+      <description>Комментарий</description>
+      <type>
+        <types>CatalogRef.тз_Комментарии</types>
+      </type>
+    </items>
+    <items id="caea68ea-fcdc-415e-a8ee-30fe0d783257">
+      <name>НаименованиеЗадания</name>
+      <description>Наименование задания</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="9794bebf-cb42-460d-bbdf-52b2db9736e6">
+      <name>Основание</name>
+      <description>Основание</description>
+      <type>
+        <types>DocumentRef.тз_Задание</types>
+      </type>
+    </items>
+    <items id="abbe2a96-41fe-4bb1-90fd-fe060fd13e58">
+      <name>Приоритет</name>
+      <description>Приоритет</description>
+      <type>
+        <types>CatalogRef.тз_Приоритеты</types>
+      </type>
+    </items>
+    <items id="18dfe8b0-e77e-4932-a2a3-b61c672b6b09">
+      <name>Проект</name>
+      <description>Проект</description>
+      <type>
+        <types>CatalogRef.тз_Проекты</types>
+      </type>
+    </items>
+    <items id="888d3d96-31b9-42fc-a00c-1e8a8181f60f">
+      <name>Содержание</name>
+      <description>Содержание</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="71cd9db2-a836-41a8-8faf-d4ebacb35791">
+      <name>Состояние</name>
+      <description>Состояние</description>
+      <type>
+        <types>CatalogRef.тз_СостоянияЗаданий</types>
+      </type>
+    </items>
+    <items id="ed8b5c74-d9d8-47bb-b1ea-6d8e8ed872e3">
+      <name>СтатусВыполнения</name>
+      <description>Статус выполнения</description>
+      <type>
+        <types>EnumRef.тз_СтатусыВыполнения</types>
+      </type>
+    </items>
+    <items id="92ce50e0-833c-401a-abf2-af59c8c41f97">
+      <name>ТекущийИсполнитель</name>
+      <description>Текущий исполнитель</description>
+      <type>
+        <types>CatalogRef.тз_Пользователи</types>
+      </type>
+    </items>
+    <items id="7120c89c-96fa-4748-b99e-89bfe4521399">
+      <name>Этап</name>
+      <description>Этап</description>
+      <type>
+        <types>CatalogRef.тз_Этапы</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.тз_ВидыАналитик.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="6cf619a1-cf83-404b-8285-afaa8f02fc7c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

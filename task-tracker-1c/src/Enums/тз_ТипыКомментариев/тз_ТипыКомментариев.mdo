@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8a07f53-66ff-43f2-ae47-06d8e274f839">
+  <producedTypes>
+    <refType typeId="9b87f042-3a4c-446c-b990-85d9d3df8405" valueTypeId="4a3bcbb7-5f39-4032-9abd-c8abac492d58"/>
+    <listType typeId="3ea92777-9525-4a5a-934c-2145322f82ef" valueTypeId="aef7dbc0-af6d-4d79-a6d4-5030afa553bf"/>
+    <managerType typeId="c5f203e8-7088-4ab5-9c58-704aa7ff5c10" valueTypeId="a79996b3-57ea-4601-baf5-de76615fe01d"/>
+  </producedTypes>
+  <name>тз_ТипыКомментариев</name>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="01db008a-2264-4326-b1fc-a29549dd35e6">
+    <name>Комментарий</name>
+  </enumValues>
+  <enumValues uuid="212dc230-c409-4bd5-bce0-4970fad4ace9">
+    <name>Служебный</name>
+  </enumValues>
+</mdclass:Enum>

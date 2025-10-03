@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc453092-219b-4c73-a136-f22f40dec9e2">
+  <name>тз_ИзображениеЗагрузкиСерое</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изображение загрузки серое</value>
+  </synonym>
+</mdclass:CommonPicture>

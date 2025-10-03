@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11dabd68-0c4b-4777-967c-f882f2f44e9f">
+  <producedTypes>
+    <managerType typeId="482dca5f-1540-4325-835f-c78b38eef846" valueTypeId="981baf53-19b8-4898-af4b-abe7b98bb0e3"/>
+    <valueManagerType typeId="0bf8a807-3db8-4ed8-a13d-abbd8e353d36" valueTypeId="25dcd158-d7f2-4e21-b3ed-527a3e63df8d"/>
+    <valueKeyType typeId="60ec7a28-4ef2-4355-b905-1fcaa1573561" valueTypeId="3e8b0a53-3926-44ae-bbd4-e0d978349eeb"/>
+  </producedTypes>
+  <name>тз_ВремяЗаписиКомментария</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бт время записи комментария</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

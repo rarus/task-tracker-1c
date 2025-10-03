@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ff26fe8-a35e-460e-a1e9-b834da83875c">
+  <name>тз_СкрытьСлужебныеКомментарии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cкрыть служебные комментарии</value>
+  </synonym>
+</mdclass:CommonPicture>

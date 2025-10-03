@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9494bf8b-0b46-4882-9c73-308444f07902">
+  <producedTypes>
+    <objectType typeId="ccdaac16-aead-4277-81a6-2cdd44f548ef" valueTypeId="e38fd738-479a-4240-834a-804ab5a962d7"/>
+    <refType typeId="03a6cf47-31b0-495a-8dd0-2734db120b71" valueTypeId="cefea852-6421-4816-9ee2-d978eff51513"/>
+    <selectionType typeId="80baafcd-e066-4665-a999-a25a2e4ff6c3" valueTypeId="5c757174-c81d-455a-869d-da44b1500068"/>
+    <listType typeId="c91742d9-3ee5-44a1-b8ec-0082f74b19c7" valueTypeId="5faa6496-8064-480d-a2fd-34515730246d"/>
+    <managerType typeId="828c42b5-219b-4b2d-bc92-b1929d2d3ec3" valueTypeId="c10cbf63-7b64-4905-92dc-ff3fc35f0e89"/>
+  </producedTypes>
+  <name>тз_Доски</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доски</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Доски.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тз_Доски.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

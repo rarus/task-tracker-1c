@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68e102bc-457a-4062-b126-02f9b30b9ae2">
+  <producedTypes>
+    <objectType typeId="25b398da-0cee-4672-96e3-52aae58cde5a" valueTypeId="4185d8e9-7caa-44f1-81d9-91f7edb28d0b"/>
+    <refType typeId="3e4c7479-ab98-4096-9f2f-ccf0b1783e11" valueTypeId="edc5eb02-d9bc-4cfb-9149-d500174ea799"/>
+    <selectionType typeId="24e76f23-8f79-4cbb-bcde-a85b50a93092" valueTypeId="03cfcd66-3d68-445e-a7a5-0515e5d04a1f"/>
+    <listType typeId="62f56fc0-6be1-4e45-b7a2-2dcac0abcb2f" valueTypeId="143a4c13-b1d0-481d-a608-8183deab752d"/>
+    <managerType typeId="39a98873-6df8-40df-b78a-f6a2b033f793" valueTypeId="dc7f763a-3b4e-4055-a229-a1e857c08288"/>
+  </producedTypes>
+  <name>тз_Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тз_Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6bd61ceb-6325-4200-bd72-8ece1aca068d">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор пользователя информационной базы, с которым сопоставлен этот элемент справочника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

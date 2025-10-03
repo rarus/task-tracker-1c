@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd866513-b462-4aeb-baef-86bf6ea456bb">
+  <producedTypes>
+    <objectType typeId="02e0d78d-84a4-4a63-990e-6139167bc403" valueTypeId="0f68d460-aaef-405b-addb-c1b36ad5a0d4"/>
+    <refType typeId="5a8e5b86-1c55-4b71-b6ad-949d6bbe7517" valueTypeId="752bc233-7dd3-4235-a4f7-4894017953d5"/>
+    <selectionType typeId="b7d5ba50-b201-48d1-8c0f-e277cfd9c477" valueTypeId="02994287-c80a-40e6-a08c-1967e42c6f95"/>
+    <listType typeId="d9dce35c-9e09-4267-ac05-aba6690cac7d" valueTypeId="19c2c3eb-0b32-425d-8dcb-23ab5cb70fc9"/>
+    <managerType typeId="949584f9-2a7a-4744-a38c-eb707970c0ae" valueTypeId="2576abba-d333-4edf-b494-7351eff5dd40"/>
+  </producedTypes>
+  <name>тз_Комментарии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тз_Комментарии.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="924ccf4b-fa47-4612-a6b6-2b2e96605afc">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.тз_Задание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d718ef7-a26c-4eed-8036-7f5b62e65a0c">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86ca3f1b-af43-4a1e-ba7a-8bd2cc1a25aa">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.тз_Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dfcb5585-5344-451b-9103-43d3aedb5737">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cfe59d23-00f5-4ba9-ae59-2b57e7e8abfd">
+    <name>СодержаниеHTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание HTML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbaefd3c-71f0-4349-9861-55f9208347f1">
+    <name>ТипКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип комментария</value>
+    </synonym>
+    <type>
+      <types>EnumRef.тз_ТипыКомментариев</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.тз_ТипыКомментариев.EnumValue.Комментарий</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cd40679a-12ec-49b4-b7bc-9265ec7ccce0">
+    <producedTypes>
+      <objectType typeId="874980e0-c0d6-41dc-838d-07d4728f5353" valueTypeId="ec5f1332-d87a-4bc4-84dd-cbc36d5a3300"/>
+      <rowType typeId="5e4f7de1-dbfc-47b5-853a-a8aa967f5854" valueTypeId="4fe472cb-e6db-4c25-8324-eb8d7973f9fc"/>
+    </producedTypes>
+    <name>ПрисоединенныеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенные файлы</value>
+    </synonym>
+    <attributes uuid="005e2089-169a-4efe-916d-4d8ba4ab89c9">
+      <name>ПрисоединенныйФайл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Присоединенный файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.тз_ЗаданиеПрисоединенныеФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7e0b92d7-b87d-4266-bb4c-18f1c7f67dec">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

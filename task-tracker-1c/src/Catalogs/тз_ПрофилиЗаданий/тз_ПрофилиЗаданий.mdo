@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e114615-3492-45b2-8946-45fa17656f6c">
+  <producedTypes>
+    <objectType typeId="7eedb1c3-93df-462e-9979-85f198375906" valueTypeId="ad6472e2-c07c-4319-a97e-694ed795f5ae"/>
+    <refType typeId="0507604a-86e0-4d1b-8bca-ba5fa0d5d1db" valueTypeId="36f960db-8a9d-4ed1-ad07-0cc1d938233a"/>
+    <selectionType typeId="e3bccaf3-c4a8-49e9-a9f6-c215d150bc27" valueTypeId="d4834a8f-29d2-464f-a790-76165f3ad925"/>
+    <listType typeId="93d9ed2e-0286-46b5-9c21-36f9c8292724" valueTypeId="40f72c35-3c94-4dfc-92a3-cbbe00b01d4a"/>
+    <managerType typeId="688c7ed6-e505-4fdd-b3f2-f2b56e41c22b" valueTypeId="bf0db3e1-51bb-47c8-adf7-5259029a5f62"/>
+  </producedTypes>
+  <name>тз_ПрофилиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Профили заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_ПрофилиЗаданий.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тз_ПрофилиЗаданий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ed0f3b02-7d2b-444e-9332-1661611ac667">
+      <name>ОсновнойПрофиль</name>
+      <description>Основной профиль</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тз_ПрофилиЗаданий.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="21890e61-bc75-4a9c-8b6e-5782bdd8facb">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5bc2767-59d0-4a01-b25e-9a0004bf66f4">
+    <name>ПрефиксЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс заданий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7331b5ba-8322-4daf-b3b1-91aa08afda43">
+    <producedTypes>
+      <objectType typeId="6215fecd-e4c2-4109-a511-7b5a0a7bf181" valueTypeId="f78d30f3-67de-4761-ba1f-6a31993d884f"/>
+      <rowType typeId="3040471b-5445-421e-97ec-5b0091658975" valueTypeId="72fec7c9-6ae2-4163-adef-053385fb5be6"/>
+    </producedTypes>
+    <name>ДоступныеВидыАналитик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитики</value>
+    </synonym>
+    <attributes uuid="72a37bf7-12b2-4513-8fe4-b954042af021">
+      <name>Аналитика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.тз_ВидыАналитик</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="549e5f24-e764-4fd9-9f35-5e392f3c9dd5">
+      <name>ЗначениеПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение по умолчанию</value>
+      </synonym>
+      <type>
+        <types>Characteristic.тз_ВидыАналитик</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="28fe1743-e979-40f0-9d02-66eb34cbfaee">
+      <name>Обязательная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обязательная</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="579573e0-4a25-4932-b4ae-2cab7d8d1141">
+      <name>ВСписке</name>
+      <synonym>
+        <key>ru</key>
+        <value>В списке</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="36fa1543-d8e0-42d6-bacd-6c80122c4ea0">
+    <producedTypes>
+      <objectType typeId="a31cd19f-ab32-48ca-a53a-bc268af965c6" valueTypeId="67c4fa31-7f73-4083-8839-b7e311278a47"/>
+      <rowType typeId="05ab6252-32a7-43b7-96c9-3e5dc477a828" valueTypeId="fd68cef8-6da8-474d-b755-82526cdf9b4f"/>
+    </producedTypes>
+    <name>ДоступныеВидыЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды заданий</value>
+    </synonym>
+    <attributes uuid="46b760cd-32d1-4911-a874-72ab7f9ceb8d">
+      <name>ВидЗадания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид задания</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.тз_ВидыЗаданий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="534ee28e-720c-4af3-bb35-8d9ec5209fd7">
+    <producedTypes>
+      <objectType typeId="c0ea8581-8e52-43ce-a846-44da5376f8b4" valueTypeId="9fdfa8a0-667c-40b5-b0b5-9e65712902f5"/>
+      <rowType typeId="50b6d273-2d68-4c1a-817f-841b8d0e0667" valueTypeId="6ff90b91-ae49-48a5-beab-d947244c9b9b"/>
+    </producedTypes>
+    <name>ДоступныеСостоянияЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояния заданий</value>
+    </synonym>
+    <attributes uuid="45a26502-dcb8-4c05-8c3b-da64950aa6ed">
+      <name>СостояниеЗадания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Состояние задания</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.тз_СостоянияЗаданий</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01e5d647-7e8c-47fb-b3ed-c2d2631a24d1">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>DefinedType.тз_Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fefbbdf9-c3a4-473f-8a62-6503b5316c65">
+    <producedTypes>
+      <objectType typeId="abc32684-8c71-4b69-a4fa-a37f6abb5694" valueTypeId="3d8013eb-e9e0-4eaf-a5b7-945f16d33493"/>
+      <rowType typeId="fcb22a1f-f3d2-4191-a45c-c9748536a33a" valueTypeId="7b24e31c-e34f-4af7-8231-7e9686ebecab"/>
+    </producedTypes>
+    <name>ДоступныеПроекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+    <attributes uuid="c64bc955-c97a-43ab-be9c-22055ec95753">
+      <name>Проект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проект</value>
+      </synonym>
+      <type>
+        <types>DefinedType.тз_Проекты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3af872f-6625-4893-acbf-c7c67ef2d50a">
+      <name>Ответсвенный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответсвенный</value>
+      </synonym>
+      <type>
+        <types>DefinedType.тз_Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d561d89c-d8b2-4fdb-ac1d-141eb163e4ba">
+    <producedTypes>
+      <objectType typeId="c07f1aeb-de4d-438e-b2e8-1349e6742924" valueTypeId="cda9c9e9-ff91-4bce-ac61-42ea21f0a097"/>
+      <rowType typeId="a4bbb788-ecd8-40b1-9f1a-226c72270d36" valueTypeId="68a77030-06e8-4ae1-84c4-31dcb7ed9813"/>
+    </producedTypes>
+    <name>ДоступныеПриоритеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритеты</value>
+    </synonym>
+    <attributes uuid="af77c998-e781-47ab-9e45-b9314b98655e">
+      <name>Приоритет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приоритет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.тз_Приоритеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="78cc439e-997a-4e60-9e67-7bcb867b4fbc">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac689d26-26e7-4a58-8bc8-201fbd0b5609">
+  <producedTypes>
+    <objectType typeId="305e0bbe-7a53-49c3-b765-6213f794a7b1" valueTypeId="06505395-1028-4394-bb4d-f04674deeb21"/>
+    <refType typeId="1bb68a36-3091-4705-a3c5-4532004cce26" valueTypeId="ff4899fd-76c5-4b71-b648-2d7f95ad0255"/>
+    <selectionType typeId="f8b2a5c9-d659-4bfa-983b-f14bdc94180b" valueTypeId="57929522-6fab-46a1-98f6-31ca44cb5a16"/>
+    <listType typeId="c82dd064-b7a0-4010-85bc-477e44468809" valueTypeId="020eb7bc-17de-4f86-80be-dec2e738b622"/>
+    <managerType typeId="63aa550f-5a83-41d6-81fc-4b1bd5929dd9" valueTypeId="59d35e34-23ae-4f54-9175-d31c008080e3"/>
+  </producedTypes>
+  <name>тз_ТомаХраненияФайлов</name>
+  <synonym>
+    <key></key>
+    <value>Бт тома хранения файлов</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Тома хранения файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_ТомаХраненияФайлов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.тз_ТомаХраненияФайлов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0fa4a6ca-11b6-4352-9d4a-a9f64e2326cb">
+    <name>Комментарий</name>
+    <synonym>
+      <key></key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b64faaa0-4059-4e41-8cf1-8414dcd5dad2">
+    <name>МаксимальныйРазмер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предел, МБ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальный размер всех файлов в томе в мегабайтах.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d0666e3-6191-4ba8-ade8-37aadac69df9">
+    <name>ПолныйПутьLinux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный путь linux</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный путь в Linux</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3eaed56-222d-4f8a-ab43-52868111e8e1">
+    <name>ПолныйПутьWindows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный путь windows</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный путь в UNC формате</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7029e610-28ed-4a60-99c6-ccadd27a583b">
+    <name>ПорядокЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядок заполнения томов файлами,
+начиная с наименьшего значения.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a33b2a61-fcd4-4e43-9340-c2a487c9ae04">
+    <name>ВремяПоследнейОчисткиФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время последней очистки файлов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

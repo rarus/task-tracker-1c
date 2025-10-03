@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cac190d0-eafa-41fc-a569-0b705fe624be">
+  <name>Развитие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Развитие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DefinedType.тз_ОснованиеЗадания</content>
+  <content>Constant.тз_СпособХраненияФайлов</content>
+  <content>Constant.тз_ПараметрыХраненияФайловВИБ</content>
+  <content>Catalog.тз_Доски</content>
+  <content>Catalog.тз_Компоненты</content>
+  <content>Catalog.тз_Релизы</content>
+  <content>Catalog.тз_Спринты</content>
+  <content>Catalog.тз_Теги</content>
+  <content>Enum.тз_ТипыСвязейЗаданий</content>
+  <content>InformationRegister.тз_ЗаданияНаДосках</content>
+  <content>InformationRegister.тз_НаблюдателиЗаданий</content>
+  <content>InformationRegister.тз_СвязиМеждуЗаданиями</content>
+  <content>InformationRegister.тз_ТегиЗаданий</content>
+  <content>AccumulationRegister.тз_Трудозатраты</content>
+  <content>Enum.тз_СтатусыИзвлеченияТекстаФайлов</content>
+  <parentSubsystem>Subsystem.тз_ТрекерЗаданий</parentSubsystem>
+</mdclass:Subsystem>

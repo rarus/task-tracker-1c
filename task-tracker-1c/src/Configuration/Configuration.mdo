@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b5319d2-fcae-4d11-97ca-63a92ef43f73">
+  <name>ТрекерЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трекер заданий</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
+    <commandInterface>Extended</commandInterface>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d174ff02-0863-408b-b1d5-b0be05257b9e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="23c8372c-8b1a-4a87-9758-e90b5cc7b4b2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="633b5998-6ae5-4f6b-a052-eceeb1bb3f29"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6516d647-2926-4d67-9a8b-86b116b5601a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="fb03891e-d3d9-4901-bb66-1fcb586acc83"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0372583c-3f77-45b3-a9ac-24f62f4efecd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a0c79d8f-f3d8-4fa4-987c-a3f2edf8ddf7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>тз_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.тз_ПолныеПрава</defaultRoles>
+  <vendor>ООО &quot;1С-Рарус&quot;</vendor>
+  <version>1.0.1.3</version>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="ce98bf1a-bacb-481a-9f8f-28c8fa83ecf8">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+  </languages>
+  <subsystems>Subsystem.тз_ТрекерЗаданий</subsystems>
+  <commonPictures>CommonPicture.тз_Изменить</commonPictures>
+  <commonPictures>CommonPicture.тз_ИзображениеЗагрузки</commonPictures>
+  <commonPictures>CommonPicture.тз_ИзображениеЗагрузкиСерое</commonPictures>
+  <commonPictures>CommonPicture.тз_ИзображенияЗагрузки</commonPictures>
+  <commonPictures>CommonPicture.тз_КТеме</commonPictures>
+  <commonPictures>CommonPicture.тз_Логотип</commonPictures>
+  <commonPictures>CommonPicture.тз_МеждустрочныйИнтервал</commonPictures>
+  <commonPictures>CommonPicture.тз_Органайзер</commonPictures>
+  <commonPictures>CommonPicture.тз_Переадресовать</commonPictures>
+  <commonPictures>CommonPicture.тз_Перечеркивание</commonPictures>
+  <commonPictures>CommonPicture.тз_ПодсистемаБагТрекер</commonPictures>
+  <commonPictures>CommonPicture.тз_ПоказатьСлужебныеКомментарии</commonPictures>
+  <commonPictures>CommonPicture.тз_ПрикрепитьФайл</commonPictures>
+  <commonPictures>CommonPicture.тз_СкрытьСлужебныеКомментарии</commonPictures>
+  <commonPictures>CommonPicture.тз_СтатусыЗаданий</commonPictures>
+  <sessionParameters>SessionParameter.тз_ТекущийПользователь</sessionParameters>
+  <roles>Role.тз_ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.тз_ШаблонВыводаЗадания</commonTemplates>
+  <commonModules>CommonModule.тз_ОбновлениеИнформационнойБазыТрекер</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначенияВызовСервераТрекер</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначенияКлиентСерверТрекер</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначенияСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.тз_ОбщегоНазначенияТрекер</commonModules>
+  <commonModules>CommonModule.тз_Пользователи</commonModules>
+  <commonModules>CommonModule.тз_ПользователиВызовСервера</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайлами</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиВТомахСлужебный</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиВызовСервера</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиКлиент</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиКлиентСервер</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиКлиентСлужебный</commonModules>
+  <commonModules>CommonModule.тз_РаботаСФайламиСлужебный</commonModules>
+  <definedTypes>DefinedType.тз_ОснованиеЗадания</definedTypes>
+  <definedTypes>DefinedType.тз_Пользователи</definedTypes>
+  <definedTypes>DefinedType.тз_Этапы</definedTypes>
+  <definedTypes>DefinedType.тз_Проекты</definedTypes>
+  <commonCommands>CommonCommand.тз_ОткрытьНастройкиТрекера</commonCommands>
+  <commonCommands>CommonCommand.тз_Пользователи</commonCommands>
+  <commonCommands>CommonCommand.тз_Проекты</commonCommands>
+  <commonCommands>CommonCommand.тз_СписокЗаданийПользователь</commonCommands>
+  <commonCommands>CommonCommand.тз_СписокЗаданийПроекты</commonCommands>
+  <commonCommands>CommonCommand.тз_СписокЗаданийЭтапы</commonCommands>
+  <commonCommands>CommonCommand.тз_Этапы</commonCommands>
+  <constants>Constant.тз_ВерсияРасширения</constants>
+  <constants>Constant.тз_ВремяЗаписиКомментария</constants>
+  <constants>Constant.тз_ПараметрыХраненияФайловВИБ</constants>
+  <constants>Constant.тз_РеквизитЭтапаДляСвязиСПроектом</constants>
+  <constants>Constant.тз_СпособХраненияФайлов</constants>
+  <commonForms>CommonForm.тз_ФормаНастроекТрекера</commonForms>
+  <commonForms>CommonForm.ОПрограмме</commonForms>
+  <catalogs>Catalog.тз_ВидыЗаданий</catalogs>
+  <catalogs>Catalog.тз_Доски</catalogs>
+  <catalogs>Catalog.тз_ЗаданиеПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.тз_ЗначенияСвойствОбъектов</catalogs>
+  <catalogs>Catalog.тз_Комментарии</catalogs>
+  <catalogs>Catalog.тз_Компоненты</catalogs>
+  <catalogs>Catalog.тз_Пользователи</catalogs>
+  <catalogs>Catalog.тз_Приоритеты</catalogs>
+  <catalogs>Catalog.тз_Проекты</catalogs>
+  <catalogs>Catalog.тз_ПрофилиЗаданий</catalogs>
+  <catalogs>Catalog.тз_Релизы</catalogs>
+  <catalogs>Catalog.тз_СостоянияЗаданий</catalogs>
+  <catalogs>Catalog.тз_Спринты</catalogs>
+  <catalogs>Catalog.тз_Теги</catalogs>
+  <catalogs>Catalog.тз_ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.тз_ХранилищеДвоичныхДанных</catalogs>
+  <catalogs>Catalog.тз_Этапы</catalogs>
+  <documents>Document.тз_Задание</documents>
+  <enums>Enum.тз_РежимыФормы</enums>
+  <enums>Enum.тз_СтатусыВыполнения</enums>
+  <enums>Enum.тз_СтатусыИзвлеченияТекстаФайлов</enums>
+  <enums>Enum.тз_ТипыКомментариев</enums>
+  <enums>Enum.тз_ТипыСвязейЗаданий</enums>
+  <enums>Enum.тз_ТипыХраненияФайлов</enums>
+  <informationRegisters>InformationRegister.тз_ЗаданияНаДосках</informationRegisters>
+  <informationRegisters>InformationRegister.тз_ЗначенияАналитик</informationRegisters>
+  <informationRegisters>InformationRegister.тз_НаблюдателиЗаданий</informationRegisters>
+  <informationRegisters>InformationRegister.тз_СвязиМеждуЗаданиями</informationRegisters>
+  <informationRegisters>InformationRegister.тз_ТегиЗаданий</informationRegisters>
+  <informationRegisters>InformationRegister.тз_ХранилищеФайлов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.тз_Трудозатраты</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.тз_ВидыАналитик</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

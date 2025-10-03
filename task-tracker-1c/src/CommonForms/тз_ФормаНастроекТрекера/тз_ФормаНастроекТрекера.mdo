@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3fa22b5-fea5-4291-a9a0-36f553c5787a">
+  <name>тз_ФормаНастроекТрекера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки трекера</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

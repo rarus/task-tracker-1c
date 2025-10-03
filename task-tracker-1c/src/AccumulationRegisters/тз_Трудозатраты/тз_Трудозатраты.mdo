@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a693461b-e953-4264-abbd-af8dd79fff99">
+  <producedTypes>
+    <selectionType typeId="a17b0e5a-dfe2-4bc6-a348-7f0da454ccba" valueTypeId="e0a1b9da-23d6-4cf6-bba6-414bb230254d"/>
+    <listType typeId="cc2d6656-3795-4df4-bca4-2082a9b8e70c" valueTypeId="ca97ac4c-abb3-441b-90d8-77d97c11c3c6"/>
+    <managerType typeId="28479ff4-d913-41a0-a745-a23850f4e5c7" valueTypeId="a096431f-48f0-4355-bd00-eb6006ede9ce"/>
+    <recordSetType typeId="5d2157cb-47c4-467c-b830-c14652207268" valueTypeId="9db1d90f-47f2-43fc-8edb-2e4bfeb0f784"/>
+    <recordKeyType typeId="08105668-f64d-486f-969d-a4dc9e4fe6fc" valueTypeId="7b065ab7-5a11-45cd-9028-807d2a5d248c"/>
+    <recordType typeId="0aee8f68-aac3-49d5-a438-5a6b1631942d" valueTypeId="659c0a7b-29b6-4910-b42f-c27f3ef06cea"/>
+  </producedTypes>
+  <name>тз_Трудозатраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудозатраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="13a66293-cd0d-45bc-944d-18e16b8ba75d">
+    <name>Трудоемкость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудоемкость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:AccumulationRegister>

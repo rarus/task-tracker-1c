@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05f89788-1a7a-469f-bfbe-13299f64c582">
+  <producedTypes>
+    <objectType typeId="9ddbb1da-6160-4128-8ce3-2fe7b980d744" valueTypeId="dab5a278-9a1b-4c55-8e42-fc8b901ddfb5"/>
+    <refType typeId="c3bd38dd-dd1f-420b-9359-23bf6d7f8768" valueTypeId="bd11abfa-8cfe-4801-ac75-8631f9fc7466"/>
+    <selectionType typeId="e9beac05-0e83-41ff-8cf5-7209efd8f0c8" valueTypeId="a02f1fa2-1631-451c-af10-7df3867c4fa8"/>
+    <listType typeId="309cbe35-b5cc-4479-9ba6-efa01a8c9463" valueTypeId="c52ec0c3-1bb4-41b6-8a22-c422c9fe874f"/>
+    <managerType typeId="1dca180a-c9aa-4608-b8a0-4a35b39823da" valueTypeId="853861f5-c7c9-42af-8048-446ff48b5929"/>
+  </producedTypes>
+  <name>тз_ВидыЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_ВидыЗаданий.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тз_ВидыЗаданий.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.тз_ВидыЗаданий.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0baf90a0-03c5-42b7-8f54-2f2f50730518">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1bc49635-2ae1-4719-91d6-f0e1af5b2aff">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6d5582c-e91f-4407-9b41-3657db46f315">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
