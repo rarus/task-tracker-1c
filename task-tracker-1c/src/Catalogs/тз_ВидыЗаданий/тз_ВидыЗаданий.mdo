@@ -13,6 +13,7 @@
     <value>Виды заданий</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тз_ВидыЗаданий.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
@@ -24,6 +25,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тз_ВидыЗаданий.Form.ФормаЭлемента</defaultObjectForm>
   <defaultChoiceForm>Catalog.тз_ВидыЗаданий.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="0baf90a0-03c5-42b7-8f54-2f2f50730518">
     <name>Цвет</name>
@@ -48,6 +50,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6d5582c-e91f-4407-9b41-3657db46f315">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

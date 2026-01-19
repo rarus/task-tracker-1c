@@ -14,19 +14,15 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.тз_Проекты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.тз_Проекты.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

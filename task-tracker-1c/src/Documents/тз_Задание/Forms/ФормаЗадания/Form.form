@@ -315,7 +315,7 @@
           <id>671</id>
           <title>
             <key>ru</key>
-            <value>Администратор изменил Состояние в 01.01.2025 12:00</value>
+            <value>Администратор изменил Состояние в 01.01.2026 12:00</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3064,6 +3064,10 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Объект.Состояние</segments>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>СостояниеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СостояниеРасширеннаяПодсказка</name>
                 <id>122</id>

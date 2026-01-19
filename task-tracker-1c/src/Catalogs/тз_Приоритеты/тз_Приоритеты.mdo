@@ -13,19 +13,15 @@
     <value>Приоритеты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.тз_Приоритеты.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.тз_Приоритеты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="34b00aed-89aa-4217-ad14-9394aabdb1b0">
