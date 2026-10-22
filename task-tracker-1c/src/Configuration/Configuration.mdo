@@ -24,9 +24,9 @@
   <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
-  <defaultRoles>Role.тз_ПолныеПрава</defaultRoles>
+  <defaultRoles>Role.тз_ОсновнаяРоль</defaultRoles>
   <vendor>ООО &quot;1С-Рарус&quot;</vendor>
-  <version>1.0.1.3</version>
+  <version>1.0.1.4</version>
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="ce98bf1a-bacb-481a-9f8f-28c8fa83ecf8">
     <name>Русский</name>
@@ -50,7 +50,7 @@
   <commonPictures>CommonPicture.тз_СкрытьСлужебныеКомментарии</commonPictures>
   <commonPictures>CommonPicture.тз_СтатусыЗаданий</commonPictures>
   <sessionParameters>SessionParameter.тз_ТекущийПользователь</sessionParameters>
-  <roles>Role.тз_ПолныеПрава</roles>
+  <roles>Role.тз_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.тз_ШаблонВыводаЗадания</commonTemplates>
   <commonModules>CommonModule.тз_ОбновлениеИнформационнойБазыТрекер</commonModules>
   <commonModules>CommonModule.тз_ОбщегоНазначения</commonModules>

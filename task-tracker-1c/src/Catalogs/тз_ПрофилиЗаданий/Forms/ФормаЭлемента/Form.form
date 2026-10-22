@@ -7,7 +7,7 @@
     <enabled>true</enabled>
     <userVisible>
       <for>
-        <role>Role.тз_ПолныеПрава</role>
+        <role>Role.тз_ОсновнаяРоль</role>
       </for>
     </userVisible>
     <dataPath xsi:type="form:DataPath">

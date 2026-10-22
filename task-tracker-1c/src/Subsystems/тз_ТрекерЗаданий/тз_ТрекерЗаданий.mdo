@@ -20,7 +20,7 @@
   <content>DefinedType.тз_ОснованиеЗадания</content>
   <content>DefinedType.тз_Этапы</content>
   <content>DefinedType.тз_Проекты</content>
-  <content>Role.тз_ПолныеПрава</content>
+  <content>Role.тз_ОсновнаяРоль</content>
   <content>SessionParameter.тз_ТекущийПользователь</content>
   <content>CommonModule.тз_ОбщегоНазначения</content>
   <content>CommonModule.тз_ОбщегоНазначенияТрекер</content>

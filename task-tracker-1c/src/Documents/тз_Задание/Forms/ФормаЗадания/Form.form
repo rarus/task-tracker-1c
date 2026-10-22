@@ -5143,7 +5143,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -5215,7 +5214,6 @@
       </handler>
     </action>
     <representation>Picture</representation>
-    <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -5446,6 +5444,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

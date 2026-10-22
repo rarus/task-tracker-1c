@@ -28,21 +28,21 @@
       <name>Высокий</name>
       <description>Высокий</description>
       <code xsi:type="core:StringValue">
-        <value>000000003</value>
+        <value></value>
       </code>
     </items>
     <items id="fb455384-2e69-45e8-b8ab-e7fa497d584a">
       <name>Низкий</name>
       <description>Низкий</description>
       <code xsi:type="core:StringValue">
-        <value>000000001</value>
+        <value></value>
       </code>
     </items>
     <items id="17f0cf8e-e278-4350-945f-4f5ebc4a9e94">
       <name>Средний</name>
       <description>Средний</description>
       <code xsi:type="core:StringValue">
-        <value>000000002</value>
+        <value></value>
       </code>
     </items>
   </predefined>
